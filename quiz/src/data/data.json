@@ -1,0 +1,30 @@
+{
+    "showProgressBar": "top",
+    "pages": [
+        {
+            "elements": [{
+                "name": "Your name?",
+                "title": "Your name?",
+                "type": "text"
+            }]
+        },
+            {
+        "elements": [{
+            "name": "The national animal of British Columbia is the ______?",
+            "title": "The national animal of British Columbia is the ______?",
+            "type": "radiogroup",
+            "choices": ["Black Bear", "Grizzly Bear", "Panda Bear", "Kermode Bear"],
+            "isRequired": true
+        }]
+    }, 
+    
+    {
+        "elements": [{
+            "name": "The tallest mountain in British Columbia is ______?",
+            "title": "The tallest mountain in British Columbia is ______?",
+            "type": "radiogroup",
+            "choices": ["Mount Logan","Mount Everest","Mount Kilimanjaro","Mount Tacos"],
+            "isRequired": true
+        }]
+    }]
+}
